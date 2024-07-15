@@ -1,0 +1,4 @@
+str1 =input("Enter any string:")
+str2 =input("Enter any string:")
+result = str1 + ' ' + str2
+print("result:",result)

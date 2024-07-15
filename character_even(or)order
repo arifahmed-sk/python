@@ -1,0 +1,10 @@
+given_str =input("enter any string:")
+even_characters = []
+odd_characters = [] 
+for i in range(len(given_str)):
+	if i % 2 == 0:
+		even_characters.append(given_str[i])
+	else:
+		odd_characters.append(given_str[i])
+print('Odd characters: {}'.format(odd_characters)) 
+print('Even characters: {}'.format(even_characters))

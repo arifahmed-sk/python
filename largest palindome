@@ -1,0 +1,8 @@
+def largest_palindromic_number(arr):
+    max_palindromic = 0
+    for num in arr:
+        if str(num) == str(num)[::-1] and num > max_palindromic:
+            max_palindromic = num
+    return max_palindromic if max_palindromic != 0 else None
+arr = [123, 121, 456, 454, 676, 1001, 7676, 8989]
+print(largest_palindromic_number(arr))
